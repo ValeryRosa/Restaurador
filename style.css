@@ -1,0 +1,58 @@
+/* 🎨 Fondo general del sitio */
+body {
+  background-color: #f5f7fa;
+}
+
+/* 📦 Estilo del menú lateral (sidebar) */
+.sidebar {
+  background-color: #2c3e50; /* azul oscuro */
+  color: white;
+  height: 100vh; /* altura completa */
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* 📌 Botón de "Cerrar Sesión" dentro del sidebar */
+.sidebar button {
+  width: 80%;
+}
+
+/* 🔗 Enlaces del menú lateral */
+.sidebar a {
+  color: white;
+  display: block;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+/* 🔲 Efecto al pasar el mouse sobre enlaces */
+.sidebar a:hover {
+  background-color: #34495e;
+}
+
+/* 📝 Área principal del formulario */
+.form-section {
+  background-color: white;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ✏️ Botón "Editar" personalizado */
+.btn-editar {
+  background-color: #6f42c1; /* púrpura */
+  color: white;
+  border: none;
+}
+
+/* ✏️ Hover para botón "Editar" */
+.btn-editar:hover {
+  background-color: #5936a2;
+}
+
+.fila-por-restaurar {
+  background-color: #f8cd76 !important;
+}
